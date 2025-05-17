@@ -1,2 +1,2 @@
 # JavaScript-100Exercise
-java script 100 code
+Kumpulan 100 basic code dan mini project JavaScript yang praktis, berguna untuk belajar, latihan coding harian, atau inspirasi proyek web.
