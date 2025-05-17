@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Balok</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Balok</h1>
+
+      <div class="formula">
+        <strong>Rumus:</strong><br />
+        Volume = p × l × t <br />
+        Luas = 2 × (p × l + p × t + l × t) <br />
+        Keliling = 4 × (p + l + t)
+      </div>
+
+      <input type="number" id="p" placeholder="Panjang" /><br />
+      <input type="number" id="l" placeholder="Lebar" /><br />
+      <input type="number" id="t" placeholder="Tinggi" /><br />
+
+      <button id="btn-hitung">Hitung</button>
+      <button id="btn-reset">Reset</button>
+
+      <div class="result">
+        Volume: <span id="volume">-</span> cm<sup>3</sup><br />
+        Luas: <span id="luas">-</span> cm<sup>2</sup><br />
+        Keliling: <span id="keliling">-</span> cm
+      </div>
+    </div>
+
+    <script src="Balok.js"></script>
+  </body>
+</html>

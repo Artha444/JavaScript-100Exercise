@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Belah Ketupat</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Belah Ketupat</h1>
+
+    <div class="formula">
+      <strong>Rumus:</strong><br />
+      Luas = ½ × d₁ × d₂ <br>
+      Keliling = 4 × s
+    </div>
+
+    <input type="number" id="d1" placeholder="Diagonal 1">
+    <input type="number" id="d2" placeholder="Diagonal 2">
+    <input type="number" id="s" placeholder="Sisi">
+
+    <button id="btn-hitung">Hitung</button>
+    <button id="btn-reset">Reset</button>
+
+    <div class="result">
+      Luas: <span id="luas">-</span> cm<sup>2</sup><br>
+      Keliling: <span id="keliling">-</span> cm
+    </div>
+  </div>
+  <script src="BelahKetupat.js"></script>
+</body>
+</html>

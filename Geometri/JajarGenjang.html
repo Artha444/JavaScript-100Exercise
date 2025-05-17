@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Jajar Genjang</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Jajar Genjang</h1>
+
+    <div class="formula">
+      <strong>Rumus:</strong><br />
+      Luas = a × t <br>
+      Keliling = 2 × (a + b)
+    </div>
+
+    <input type="number" id="a" placeholder="Alas"><br>
+    <input type="number" id="t" placeholder="Tinggi"><br>
+    <input type="number" id="b" placeholder="Sisi miring"><br>
+
+    <button id="btn-hitung">Hitung</button>
+    <button id="btn-reset">Reset</button>
+
+    <div class="result">
+      Luas: <span id="luas">-</span> cm<sup>2</sup><br>
+      Keliling: <span id="keliling">-</span> cm
+    </div>
+  </div>
+  <script src="JajarGenjang.js"></script>
+</body>
+</html>

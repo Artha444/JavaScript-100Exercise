@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Trapesium</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Trapesium</h1>
+
+    <div class="formula">
+      <strong>Rumus:</strong><br />
+      Luas = ½ × (a + b) <br>
+      Keliling = a + b + c + d
+    </div>
+
+    <input type="number" id="a" placeholder="Alas atas"><br>
+    <input type="number" id="b" placeholder="Alas bawah"><br>
+    <input type="number" id="t" placeholder="Tinggi"><br>
+    <input type="number" id="c" placeholder="Sisi miring kiri"><br>
+    <input type="number" id="d" placeholder="Sisi miring kanan"><br>
+
+    <button id="btn-hitung">Hitung</button>
+    <button id="btn-reset">Reset</button>
+
+    <div class="result">
+      Luas: <span id="luas">-</span> cm<sup>2</sup><br>
+      Keliling: <span id="keliling">-</span> cm <br>
+    </div>
+  </div>
+  <script src="Trapesium.js"></script>
+</body>
+</html>

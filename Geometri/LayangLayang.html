@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Belah Ketupat</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Layang-layang</h1>
+
+    <div class="formula">
+      <strong>Rumus:</strong><br />
+      Luas = ½ × d₁ × d₂ <br>
+      Keliling =  2 × (a + b)
+    </div>
+
+    <input type="number" id="d1" placeholder="Diagonal 1">
+    <input type="number" id="d2" placeholder="Diagonal 2">
+    <input type="number" id="a" placeholder="Sisi 1">
+    <input type="number" id="b" placeholder="Sisi 2">
+
+    <button id="btn-hitung">Hitung</button>
+    <button id="btn-reset">Reset</button>
+
+    <div class="result">
+      Luas: <span id="luas">-</span> cm<sup>2</sup><br>
+      Keliling: <span id="keliling">-</span> cm
+    </div>
+  </div>
+  <script src="LayangLayang.js"></script>
+</body>
+</html>

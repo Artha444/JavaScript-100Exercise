@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Tabung</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Tabung</h1>
+
+    <div class="formula">
+      <strong>Rumus:</strong><br>
+      Volume = π × r² × t <br>
+      Luas Permukaan = 2 × π × r × (r + t)
+    </div>
+
+    <input type="number" id="r" placeholder="Jari-jari">
+    <input type="number" id="t" placeholder="Tinggi">
+
+    <button id="btn-hitung">Hitung</button>
+    <button id="btn-reset">Reset</button>
+
+    <div class="result">
+      Volume: <span id="volume">-</span> cm<sup>3</sup> <br>
+      Luas Permukaan: <span id="lp">-</span> cm<sup>2</sup>
+    </div>
+  </div>
+  <script src="Tabung.js"></script>
+</body>
+</html>

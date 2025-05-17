@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Kubus</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Kubus</h1>
+
+      <div class="formula">
+        <strong>Rumus:</strong><br />
+        Volume = s<sup>3</sup><br />
+        Luas Permukaan = 6 × s<sup>2</sup>
+      </div>
+
+      <input type="number" id="s" placeholder="Sisi" />
+
+      <button id="btn-hitung">Hitung</button>
+      <button id="btn-reset">Reset</button>
+
+      <div class="result">
+        Volume: <span id="volume">-</span> cm<sup>3</sup><br />
+        Luas Permukaan: <span id="Lp">-</span> cm<sup>2</sup>
+      </div>
+    </div>
+    <script src="Kubus.js"></script>
+  </body>
+</html>

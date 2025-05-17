@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Prisma Segitiga</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Prisma Segitiga</h1>
+
+      <div class="formula">
+        <strong>Rumus:</strong><br>
+        Volume = (½ × a × tₐ) × T <br />
+        Luas Permukaan = 2 × (½ × a × tₐ) + (a + b + c) × T
+      </div>
+
+      <input type="number" id="a" placeholder="Alas Segitiga">
+      <input type="number" id="b" placeholder="Sisi kedua segitiga">
+      <input type="number" id="c" placeholder="Sisi ketiga segitiga">
+      <input type="number" id="ta" placeholder="Tinggi segitiga alas">
+      <input type="number" id="T" placeholder="Tinggi prisma">
+
+      <button id="btn-hitung">Hitung</button>
+      <button id="btn-reset">Reset</button>
+
+      <div class="result">
+        Volume: <span id="volume">-</span> cm<sup>3</sup><br>
+        Luas Permukaan: <span id="lp">-</span> cm<sup>2</sup>
+      </div>
+    </div>
+    <script src="PrismaSegitiga.js"></script>
+  </body>
+</html>
