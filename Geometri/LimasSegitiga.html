@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Limas Segitiga</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Limas Segitiga</h1>
+
+    <div class="formula">
+      <strong>Rumus:</strong><br>
+      Volume = ⅓ × L<sub>a</sub> × T <br>
+      Luas Permukaan = L<sub>a</sub> + (3 × L<sub>s</sub>)
+    </div>
+
+    <input type="number" id="la" placeholder="Luas alas">
+    <input type="number" id="t" placeholder="Tinggi">
+    <input type="number" id="ls" placeholder="Luas sisi tegak">
+
+    <button id="btn-hitung">Hitung</button>
+    <button id="btn-reset">Reset</button>
+
+    <div class="result">
+      Volume: <span id="volume">-</span> cm<sup>3</sup><br>
+      Luas Permukaan: <span id="lp">-</span> cm<sup>2</sup>
+    </div>
+  </div>
+  <script src="LimasSegitiga.js"></script>
+</body>
+</html>

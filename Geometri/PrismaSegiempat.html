@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Prisma Segiempat</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Prisma Segiempat</h1>
+
+      <div class="formula">
+        <strong>Rumus:</strong><br />
+        Volume = L<sub>a</sub> × t <br />
+        Luas Permukaan = 2 × L<sub>a</sub> + K<sub>a</sub> × t
+      </div>
+
+        <input type="number" id="la" placeholder="Luas alas" />
+        <input type="number" id="t" placeholder="Tinggi" />
+        <input type="number" id="ka" placeholder="Keliling alas" />
+
+        <button id="btn-hitung">Hitung</button>
+        <button id="btn-reset">Reset</button>
+
+        <div class="result">
+          Volume: <span id="volume">-</span> cm<sup>3</sup><br />
+          Luas Permukaan: <span id="lp">-</span> cm<sup>2</sup>
+      </div>
+    </div>
+    <script src="PrismaSegiempat.js"></script>
+  </body>
+</html>

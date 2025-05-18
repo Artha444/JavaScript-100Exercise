@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Bola</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Bola</h1>
+
+    <div class="formula">
+      <strong>Rumus:</strong><br>
+      Volume = ⁴⁄₃ × π × r³ <br>
+      Luas Permukaan = 4 × π × r²
+    </div>
+
+    <input type="number" id="r" placeholder="Jari-jari">
+
+    <button id="btn-hitung">Hitung</button>
+    <button id="btn-reset">Reset</button>
+
+    <div class="result">
+      Volume: <span id="volume">-</span> cm<sup>3</sup><br>
+      Luas Permukaan: <span id="lp">-</span> cm<sup>2</sup>
+    </div>
+  </div>
+  <script src="Bola.js"></script>
+</body>
+</html>
